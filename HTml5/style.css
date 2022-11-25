@@ -1,0 +1,93 @@
+body{
+    background: #54565C;
+    color: white;
+}
+header{
+    
+    background-color: rgba(255, 255, 255, 0.2);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:  0 100px ;
+    border-radius: 1rem;
+
+}
+button{
+    background: rgb(63, 147, 226);
+    border: none;
+}
+.under{
+    margin-top: -20px;
+}
+.main{
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 200px 200px;
+    /* justify-content: center; */
+    margin-top: 100px;
+}
+.first{
+    border: 2px solid white;
+    /* width: 290px;
+    height: 290px; */
+    background: linear-gradient(#F62F0E, #F22604);
+    transform: rotate(1deg);
+    /* height: 200px; */
+}
+.second{
+    border: 2px solid white;
+    /* width: 290px;
+    height: 290px; */
+    background: linear-gradient(#98B4FD, #6F8CF5);
+    transform: rotate(1deg);
+    /* height: 200px; */
+}
+.third{
+    border: 2px solid white;
+    /* width: 290px;
+    height: 290px; */
+    background: linear-gradient(#2C7BB4, #0C558A);
+    transform: rotate(1deg);
+    /* height: 200px; */
+}
+.fourth{
+    border: 2px solid white;
+    /* width: 290px;
+    height: 290px; */
+    background: linear-gradient(#F62F0E, #F22604);
+    transform: rotate(1deg);
+    /* height: 200px; */
+}
+.fifth{
+    border: 2px solid white;
+    /* width: 290px;
+    height: 290px; */
+    background: linear-gradient(#532BB0, #310B8E);
+    transform: rotate(1deg);
+    /* height: 200px; */
+}
+.sixth{
+    border: 2px solid white;
+    /* width: 290px;
+    height: 290px; */
+    background: linear-gradient(#FFB367, #FF8C19);
+    transform: rotate(1deg);
+    /* height: 200px; */
+}
+.seventh{
+    border: 2px solid white;
+    /* width: 290px;
+    height: 290px; */
+    background: linear-gradient(#FFB367, #FF8C19);
+    transform: rotate(1deg);
+    /* height: 200px; */
+}
+.eighth{
+    border: 2px solid white;
+    /* width: 290px;
+    height: 290px; */
+    background: linear-gradient(#FE9D9C, #FE9292);
+    transform: rotate(1deg);
+    /* height: 200px; */
+}

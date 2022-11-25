@@ -1,0 +1,200 @@
+/* .teddy_body{
+    background-color: rgba(187, 173, 173, 0.1);
+    height: 600px;
+    width: 400px;
+    position: relative;
+}
+.teddy_body div{
+    position: absolute;
+}
+
+.left_ear{
+    background: white;
+    right: 50px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 25px #FFB4DE inset;
+    /* position: absolute; */
+}
+
+.right_ear{
+    background: white;
+    left: 50px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 25px #FFB4DE inset;
+    /* position: absolute; */
+}
+.big_head{
+    background-color: #FFB4DE;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    /* position: absolute; */
+    z-index: 1;
+    margin: auto;
+    right: 0;
+    left: 0;
+}
+.eye_one{
+    background: white;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    box-shadow: 2px -2px 0 12px black inset;
+    right: 9.5em;
+    top: 90px;
+    animation-name: eye_blink;
+    animation-iteration-count: 2;
+    animation-timing-function: cubic-bezier();
+    animation: eye_blink 5s infinite;
+    /* animation: first 5s infinite; */
+    /* bottom: 20px; */
+    /* position: absolute; */
+}
+.eye_two{
+    background: white;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    box-shadow: 2px -2px 0 12px black inset;
+    left:9.5em;
+    top: 90px;
+    animation-name: eye_blink;
+    animation-iteration-count: 2;
+    animation-timing-function: cubic-bezier();
+    animation: eye_blink 5s infinite;
+    /* bottom: 20p?x; */
+    /* position: absolute; */
+}
+
+@keyframes first {
+    from{top: 100px}
+    to{top: 200px}
+    
+}
+@keyframes eye_blink {
+    22%{
+        transform: scaleY(1);
+    }
+    26%{
+        transform: scaleY(0.2);
+    }
+    28%{
+        transform: scaleY(1);
+    }
+    30%{
+        transform: scaleY(1);
+    }
+    65%{
+        transform: scaleY(1);
+    }
+    67%{
+        transform: scaleY(0.2);
+    }
+    69%{
+        transform: scaleY(1);
+    }
+    
+}
+.big_mouth{
+    background: #f1d3d3;
+    width: 150px;
+    height: 100px;
+    border-radius: 50%;
+    top: 130px;
+    left: 3em;
+}
+.nose{
+    background: rgb(168, 64, 64);
+    width: 50px;
+    height: 40px;
+    border-radius: 50%;
+    top: 10px;
+    left: 3em;
+    position: relative;
+}
+.nose_dot{
+    background: white;
+    width: 10px;
+    height: 5px;
+    border-radius: 50%;
+    position: absolute;
+    right: 7px;
+    top: 7px;
+    transform: rotate(30deg);
+    
+}
+.mouth_left{
+    border: 5px solid rgb(168, 64, 64);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border-top: 0;
+    border-bottom: 0;
+    border-left: 0;
+    transform: rotate(45deg);
+    top: 20px;
+    left: 1.4em;
+
+   
+
+}
+.mouth_right{
+    border: 5px solid rgb(168, 64, 64);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border-top: 0;
+    border-bottom: 0;
+    border-right: 0;
+    transform: rotate(-45deg) translate(-10px, -5px);
+    top: 20px;
+    right: 0.7em;
+}
+.body{
+    background: #FFB4DE;
+    border: 35px solid #f1d3d3;
+    height: 280px;
+    width: 220px;
+    border-radius: 50%;
+    top: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.left_hand{
+    background: #FFB4DE;
+    width: 180px;
+    height: 130px;
+    border-radius: 50%;
+    left: 60%;
+    top: 0px;
+}
+.right_hand{
+    background: #FFB4DE;
+    width: 170px;
+    height: 150px;
+    border-radius: 50%;
+    right: 60%;
+    top: 0px;
+}
+.left_palm{
+    background: #f1d3d3;
+    width: 160px;
+    height: 140px;
+    border-radius: 50%;
+    left: 10%;
+    top: 30px;
+
+}
+.right_palm{
+    background: #f1d3d3;
+    width: 160px;
+    height: 140px;
+    border-radius: 50%;
+    right: 50%;
+    top: 40px;
+
+} 

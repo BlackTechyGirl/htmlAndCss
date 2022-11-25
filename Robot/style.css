@@ -1,0 +1,169 @@
+body {
+    margin: auto;
+    display: block;
+    height: 100vh;
+    /* display: inline-block; */
+  }
+  
+  .container {
+    padding: 2%;
+    height: 100%;
+    width: 90%;
+    margin-inline: auto;
+    background-image: url("./images/stars.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    background-color: #012b3d;
+    /* position: relative; */
+  }
+  
+  .main_body {
+    /* padding: 2% 7%; */
+    height: 95%;
+    width: 95%;
+    background-image: url("./images/stars.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-inline: auto;
+    border-radius: 20px;
+    background-color: #0f3b4f;
+     
+  }
+  
+  /* .icon{
+    display: inline-block;
+  } */
+  
+  .p_tag_one{
+    font-size: 26px;
+    font-weight: 700;
+    color: #fff;
+  }
+  
+  .span_one{
+    margin-right: 2%;
+    color: rgb(88, 151, 43);
+    font-weight: 700;
+    font-size: 48px;
+    text-shadow: 3px 2px 5px rgb(225, 248, 100);
+  }
+  
+  .nav_class{
+    display: flex;
+    height: 20%;
+    padding: 0% 7%;
+  }
+  
+  .nav_two a{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 20px 0px 20px;
+  }
+  
+  .nav_two a:hover {
+    color: rgb(107, 216, 23);
+    font-size: 26px;
+    cursor: pointer
+  }
+  
+  ul{
+    margin: 0;
+    overflow: hidden;
+  
+  } 
+  
+  li{
+    float: left;
+  }
+  
+  li a, .drop_down{
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    padding: 12px 16px;
+  }
+  
+  li a:hover, .Drop:hover.drop_down{
+    border-radius: 6px;
+    background-color: rgb(12, 49, 79);
+  
+  }
+  
+  li.Drop{
+    display: inline-block;
+  }
+  
+  .trial_drop_down{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+    color: rgb(251, 252,251 );
+    background-color: rgb(4, 60, 116);
+  }
+  
+  .trial_drop_down a{
+    font-size: 18px;
+    font-weight: 700;
+    padding: 12px 16px;
+    text-align: left;
+    display: block;
+    color: rgb(18, 12, 13); 
+  
+  }
+  
+  .Drop:hover .trial_drop_down{
+    display: block;
+  }
+  
+  .trial_drop_down a:hover{
+    color: rgb(245, 247, 211);
+    background-color: rgb(3, 129, 247);
+  }
+  
+  li a{
+    text-decoration: none;
+  }
+  
+  .nav_two {
+    text-align: center;
+    width: 50%;
+    padding-top: 3%;
+  }
+  
+  .nav_one{
+    width: 20%;
+  }
+  
+  .nav_three{
+    width: 30%;
+    padding-left: 4%;
+    padding-top: 3%;
+  }
+  
+  .login{
+    margin-right: 5%;
+    background-color: #fafcfb;
+    
+  }
+  
+  .login:hover{
+    background-color: #eb9215;
+  }
+  
+  .login, .register{
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 20px;
+    width: 40%;
+    height: 30%;
+  }
+  .register{
+    background-color: greenyellow;
+  }
+  
+  .register:hover{
+    background-color: rgb(47, 123, 255);
+  }  

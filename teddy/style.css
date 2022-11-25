@@ -1,0 +1,268 @@
+.body{
+    width: 700px;
+    padding-left: 15%;
+    padding-top: 5%;
+    height: 600px;
+    background-image: url("data:image/jpeg;base64,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");
+}
+.teddy_body{
+    height: 500px;
+    width: 400px;
+    position: relative;
+}
+
+.teddy_body div{
+    position: absolute;
+}
+
+.left_ear{
+    background-color: rgb(236, 91, 159);
+    right: 50px;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 25px white inset;
+    /* position: absolute; */
+}
+
+.right_ear{
+    background-color: rgb(236, 91, 159);
+    left: 50px;
+    height: 120px;
+    width: 120px; 
+    border-radius: 50%;
+    box-shadow: 0 0 0 25px white inset;
+    /* position: absolute; */
+}
+
+.big_head{
+    background-color: white;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    /* position: absolute; */
+    z-index: 1;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.eyes_one{
+    background: rgb(255, 255, 255);
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    box-shadow: 2px -2px 0 12px inset;
+    right: 9.5em;
+    top: 100px;
+    animation-timing-function:cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    animation: eye_blink 5s infinite;
+}
+
+.eyes_two{
+    background-color: rgb(255, 255, 255);
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    box-shadow: 2px -2px 0 12px inset;
+    left: 9.5em;
+    top: 100px;
+    animation-timing-function:cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    animation: eye_blink 5s infinite;
+}
+
+@keyframes eye_blink {
+    20%{
+        transform: scaleY(1);
+    }
+    22%{
+        transform: scaleY(0.2);
+    }
+    26%{
+        transform: scaleY(1);
+    }
+    28%{
+        transform: scaleY(1);
+    }
+    30%{
+        transform: scaleY(1);
+    }
+    65%{
+        transform: scaleY(1);
+    }
+    67%{
+        transform: scaleY(0.2);
+    }
+    69%{
+        transform: scaleY(1);
+    }
+}
+.big_mouth{
+    background-color: rgb(240, 231, 231);
+    width: 150px;
+    height: 100px;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.big_mouth_one{
+    bottom: 25px;
+    width: 40px;
+    height: 30px;
+    box-shadow: 4px -4px 0 0 rgb(236, 91, 159);
+    right: 73px;
+    transform: rotate(90deg);
+    border-radius: 50%;
+}
+
+.big_mouth_two{
+    bottom: 25px;
+    width: 40px;
+    height: 30px;
+    box-shadow: -4px -4px 0 0 rgb(236, 91, 159);
+    left: 72px;
+    transform: rotate(280deg);
+    border-radius: 50%;
+}
+
+.nose{
+    margin: auto;
+    width: 60px;
+    height: 50px;
+    background-color: rgb(249, 102, 176);
+    top: 15px;
+    left: 0;
+    right: 0;
+    border-radius: 50%;
+}
+
+.nose_dot{
+    top: 5px;
+    left: 30px;
+    border-radius: 50%;
+    width: 15px;
+    height: 10px;
+    background-color: white;
+}
+
+.main_body {
+	background: white;
+	box-shadow: 0 0 0 24px rgb(240, 231, 231) inset;
+	margin: auto;
+	right: 0;
+	bottom: 22px;
+	left: 0;
+	width: 240px;
+	height: 300px;    
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.icons{
+    font-size: 80px;
+    z-index: 1;
+    padding: 75px;    
+}
+.icons:hover{
+    font-size: 160px;
+    cursor:progress;
+    z-index: 1;
+    /* padding: 70px 60px; */
+}
+
+.right_arm {
+	background: #FFF;
+	top: 200px;
+	width: 100px;
+	height: 80px;
+	left: 5px;
+	border-radius: 70px 0 0 0;
+}
+
+.right_arm .arm_inner {
+	border-radius: 80px 0 0 0;
+	box-shadow: 22px 22px 0 0 rgb(240, 231, 231) inset;
+	left: 75px;
+}
+
+.left_arm {
+	background: #FFF;
+	top: 200px;
+	width: 100px;
+	height: 80px;
+	border-radius: 0 70px 0 0;
+    right: 20px;
+}
+
+.left_arm .arm_inner {
+	border-radius: 0 80px 0 0;
+	box-shadow: -22px 22px 0 0 rgb(240, 231, 231) inset;
+	right: 80px;
+}
+.arm_inner {
+	width: 50px;
+	height: 80px;
+	bottom: 0;
+}
+.right_arm .paw {
+	background: white;
+	width: 110px;
+	height: 90px;
+	top: 40px;
+    border-radius: 50%;
+}
+
+.lov{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(236, 91, 159);
+    text-align: center;
+    padding: 10px;
+    font-family: 'Rubik Distressed', cursive;
+}
+
+.left_arm .paw {
+	background: white;
+	width: 110px;
+	height: 90px;
+	top: 40px;
+    border-radius: 50%;
+}
+
+.right_leg{
+	background: #FFF;
+	border-radius: 45px 45px 0 0 / 70px 70px 0 0;
+	bottom: 40px;
+	width: 110px;
+	height: 105px;
+	left: 30px;
+}
+
+.left_leg {
+	background: white;
+	border-radius: 45px 45px 0 0 / 70px 70px 0 0;
+	bottom: 40px;
+	width: 110px;
+	height: 105px;
+	right: 30px;
+}
+
+.foot  {
+	background: white;
+	box-shadow: 0 5px 0 18px rgb(236, 91, 159) inset;
+	width: 125%;
+	height: 120px;
+	top: 30px;
+    border-radius: 50%;
+    right: -3px;
+}
+.right_toes{
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+}

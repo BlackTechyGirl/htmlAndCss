@@ -1,0 +1,63 @@
+* {
+  font-family: "epilogue", sans-serif;
+  font-size: 0.85rem;
+}
+.logo {
+  font-size: 1.3rem;
+}
+nav,
+.menu-items,
+.cta-btns {
+  display: flex;
+  align-items: center;
+}
+li {
+  list-style: none;
+}
+nav {
+  justify-content: space-between;
+  margin: 0 1.5rem;
+}
+/* .logos-section{
+    display: flex;
+} */
+.menu-items li,
+.cta-btns li {
+  font-size: 0.7rem;
+  margin-right: 1rem;
+  color: hsl(0, 1%, 41%);
+}
+.cta-btns li:nth-last-child(1) {
+  border: 1px solid gray;
+  padding: 0.2rem 0.7rem;
+  border-radius: 0.3rem;
+}
+
+.container {
+  width: 200px;
+  height: 200px;
+  background-color: rgba(255, 0, 0, 0.7);
+  position: relative;
+}
+.container::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: yellow;
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    z-index: 4;
+}
+.container::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    position: absolute;
+    bottom: -20px;
+    right: -20px;
+    z-index: 1;
+}

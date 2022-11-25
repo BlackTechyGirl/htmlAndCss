@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #0260D9;
+}
+header{
+    background: #F0E6CE;
+    position: sticky;
+    top: 0;
+    height: 1in;
+    margin-top: 0.3in;
+    margin-left: 0.3in;
+    margin-right: 0.3in;
+}
+a{
+    color:  #0260D9;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+
+}
+a :hover{
+    color: #444;
+}
+main{
+    background: #F0E6CE;
+    height: 5in;
+    margin-top: 0.3in;
+    margin-left: 0.3in;
+    margin-right: 0.3in;
+}
+.socials{
+    background: #0260D9;
+    height: 5in;
+}
+.container{
+    display: flex;
+}
+.experience{
+    background: #0260D9;
+    height: 5in;
+}
+.skills{
+    background: #F0E6CE;
+    height: 5in;
+}
+
+
+footer{
+    background-color: #F0E6CE;
+    height: 1.5in;
+    margin-bottom: 0.3in;
+    margin-right: 0.3in;
+    margin-left: 0.3in;
+}

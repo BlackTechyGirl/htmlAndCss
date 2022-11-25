@@ -1,0 +1,59 @@
+body{
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-tplate-rows: 1fr 1fr 1fr;
+    margin: 0;
+
+}
+.header{
+    background: #FFE3D0;
+    width: 200px;
+    height: 200px;
+}
+.main{
+    background: #0262DE;
+    width: 200px;
+    height: 200px;
+}
+.socials{
+    background: #FFE3D0;
+    width: 200px;
+    height: 200px;
+
+}
+.experience{
+    background: #0262DE;
+    width: 200px;
+    height: 200px;
+
+}
+.skill{
+    background: #FFE3D0;
+    width: 200px;
+    height: 200px;
+
+}
+.aside{
+    background: #0262DE;
+    width: 200px;
+    height: 200px;
+
+}
+.form{
+    background: #FFE3D0;
+    width: 200px;
+    height: 200px;
+
+}
+.social-logo{
+    background: #0262DE;
+    width: 200px;
+    height: 200px;
+
+}
+.footer{
+    background: #FFE3D0;
+    width: 200px;
+    height: 200px;
+
+}
